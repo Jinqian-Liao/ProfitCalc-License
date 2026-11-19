@@ -1,0 +1,32 @@
+name: Sign licenses
+on:
+  push:
+    paths:
+      - 'licenses.json'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  sign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Sign
+        env:
+          LICENSE_PRIVATE_KEY: ${{ secrets.LICENSE_PRIVATE_KEY }}
+        run: node sign.mjs
+
+      - name: Commit signature
+        run: |
+          git config user.name "license-bot"
+          git config user.email "bot@example.com"
+          git add licenses.json.sig
+          git diff --cached --quiet || git commit -m "update signature"
+          git push
