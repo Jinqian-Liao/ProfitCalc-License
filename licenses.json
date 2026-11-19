@@ -1,3 +1,11 @@
 {
-  "licenses": []
+  "licenses": [
+    {
+      "keyHash": "7bf7f0ad1c3f2433fba990acb638b99e8ba32896628ea54d298f6b49e26d71a3",
+      "userTag": "U001",
+      "deviceHash": "",
+      "expires": "2027-12-31",
+      "disabled": false
+    }
+  ]
 }
