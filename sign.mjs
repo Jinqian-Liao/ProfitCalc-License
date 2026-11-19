@@ -7,11 +7,12 @@ if (!privateKeyBase64) {
   process.exit(1);
 }
 
+// PowerShell 的 ExportRSAPrivateKey 导出的是 PKCS#1 格式
+// 对应的 PEM 头尾是 BEGIN RSA PRIVATE KEY
 const privateKeyPem =
-  '-----BEGIN PRIVATE KEY-----\n' +
-  Buffer.from(privateKeyBase64, 'base64').toString('base64')
-    .match(/.{1,64}/g).join('\n') +
-  '\n-----END PRIVATE KEY-----\n';
+  '-----BEGIN RSA PRIVATE KEY-----\n' +
+  privateKeyBase64.match(/.{1,64}/g).join('\n') +
+  '\n-----END RSA PRIVATE KEY-----\n';
 
 const data = readFileSync('licenses.json');
 const sign = createSign('RSA-SHA256');
