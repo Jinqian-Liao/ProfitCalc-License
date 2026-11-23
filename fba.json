@@ -1,5 +1,5 @@
 {
-  "version": 1,
+  "version": 2,
   "updatedAt": "2026-11-23T17:51:15+08:00",
   "note": "FBA 费用表。改完请把 version +1，客户端下次启动会提示同步。",
   "fbaSmall": [
