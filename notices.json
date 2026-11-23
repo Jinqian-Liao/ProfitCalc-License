@@ -1,4 +1,15 @@
 {
-  "updatedAt": "2026-11-23T17:05:44+08:00",
-  "notices": []
+  "updatedAt": "2026-11-23T17:06:10+08:00",
+  "notices": [
+    {
+      "id": "20261123170550725",
+      "title": "6666",
+      "body": "头程单价65",
+      "level": "info",
+      "publishedAt": "2026-11-23T17:05:50+08:00",
+      "expiresAt": "",
+      "active": true,
+      "pinned": true
+    }
+  ]
 }
