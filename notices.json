@@ -1,15 +1,4 @@
 {
-  "updatedAt": "2026-11-23T17:05:39+08:00",
-  "notices": [
-    {
-      "id": "20261123162635557",
-      "title": "啥也不是",
-      "body": "666",
-      "level": "info",
-      "publishedAt": "2026-11-23T16:26:35+08:00",
-      "expiresAt": "",
-      "active": true,
-      "pinned": true
-    }
-  ]
+  "updatedAt": "2026-11-23T17:05:44+08:00",
+  "notices": []
 }
