@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T17:21:42+08:00",
+  "updatedAt": "2026-11-23T17:23:59+08:00",
   "notices": [
     {
       "id": "20261123170550725",
@@ -10,16 +10,6 @@
       "expiresAt": "",
       "active": true,
       "pinned": true
-    },
-    {
-      "id": "20261123171340260",
-      "title": "对啊对啊",
-      "body": "是事实还是",
-      "level": "info",
-      "publishedAt": "2026-11-23T17:13:40+08:00",
-      "expiresAt": "",
-      "active": true,
-      "pinned": false
     }
   ]
 }
