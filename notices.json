@@ -1,6 +1,16 @@
 {
-  "updatedAt": "2026-11-23T16:19:35+08:00",
+  "updatedAt": "2026-11-23T16:26:43+08:00",
   "notices": [
+    {
+      "id": "20261123162635557",
+      "title": "1231",
+      "body": "12312312",
+      "level": "info",
+      "publishedAt": "2026-11-23T16:26:35+08:00",
+      "expiresAt": "",
+      "active": true,
+      "pinned": false
+    },
     {
       "id": "20261123154000001",
       "title": "ProfitCalc 通知功能已启用",
