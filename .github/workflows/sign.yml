@@ -1,8 +1,9 @@
-name: Sign licenses
+name: Sign manifests
 on:
   push:
     paths:
       - 'licenses.json'
+      - 'fba.json'
   workflow_dispatch:
 
 permissions:
@@ -23,10 +24,12 @@ jobs:
           LICENSE_PRIVATE_KEY: ${{ secrets.LICENSE_PRIVATE_KEY }}
         run: node sign.mjs
 
-      - name: Commit signature
+      - name: Commit signatures
         run: |
           git config user.name "license-bot"
           git config user.email "bot@example.com"
-          git add licenses.json.sig
+          # 逐个 add：某个 .sig 还不存在时不要影响另一个
+          git add licenses.json.sig 2>/dev/null || true
+          git add fba.json.sig 2>/dev/null || true
           git diff --cached --quiet || git commit -m "update signature"
           git push
