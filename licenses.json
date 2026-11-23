@@ -2,10 +2,10 @@
   "minVersion": "1.1.0",
   "licenses": [
     {
-      "keyHash": "4d156d7bc9c38c000aa1e5b06e46e1f40cafe651f3cabfae9bad48803baf17bf",
+      "keyHash": "a108f21a69dfd6aa9ebb08a29a2fd151fac91243be9f4f6fd4f92c4f40a6326e",
       "userTag": "U001",
       "deviceHash": "d54ef44d5bfcfac52382876f3b0bf57f06b10ae699b3721557be75d1c864747d",
-      "expires": "2027-12-31",
+      "expires": "",
       "disabled": false
     },
     {
