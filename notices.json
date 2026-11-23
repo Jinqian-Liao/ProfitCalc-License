@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-11-23T16:44:29+08:00",
+  "updatedAt": "2026-11-23T16:52:45+08:00",
   "notices": [
     {
       "id": "20261123162635557",
-      "title": "asd",
-      "body": "头程单价",
+      "title": "啥也不是",
+      "body": "666",
       "level": "info",
       "publishedAt": "2026-11-23T16:26:35+08:00",
       "expiresAt": "",
       "active": true,
-      "pinned": false
+      "pinned": true
     },
     {
       "id": "20261123154000001",
