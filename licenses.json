@@ -7,6 +7,13 @@
       "deviceHash": "d54ef44d5bfcfac52382876f3b0bf57f06b10ae699b3721557be75d1c864747d",
       "expires": "2027-12-31",
       "disabled": false
+    },
+    {
+      "keyHash": "c1c7feaaaacd0513a2cda978e67c89be2582026ed022e72d8a067032337bd7de",
+      "userTag": "U002",
+      "deviceHash": "",
+      "expires": "2027-11-23",
+      "disabled": false
     }
   ]
 }
