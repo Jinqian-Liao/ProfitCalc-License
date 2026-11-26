@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23T17:27:07+08:00",
+  "updatedAt": "2026-11-26T10:45:42+08:00",
   "notices": [
     {
       "id": "20261123172410238",
@@ -10,16 +10,6 @@
       "expiresAt": "",
       "active": true,
       "pinned": true
-    },
-    {
-      "id": "20261123172545476",
-      "title": "好无聊",
-      "body": "11111",
-      "level": "info",
-      "publishedAt": "2026-11-23T17:25:45+08:00",
-      "expiresAt": "",
-      "active": true,
-      "pinned": false
     }
   ]
 }
