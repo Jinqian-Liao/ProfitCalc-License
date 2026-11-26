@@ -2,17 +2,10 @@
   "minVersion": "1.1.0",
   "licenses": [
     {
-      "keyHash": "a108f21a69dfd6aa9ebb08a29a2fd151fac91243be9f4f6fd4f92c4f40a6326e",
-      "userTag": "U001",
-      "deviceHash": "a54ef44d5bfcfac52382876f3b0bf57f06b10ae699b3721557be75d1c864747d",
-      "expires": "",
-      "disabled": false
-    },
-    {
-      "keyHash": "c1c7feaaaacd0513a2cda978e67c89be2582026ed022e72d8a067032337bd7de",
-      "userTag": "U002",
+      "keyHash": "c0302af4cc0abccb9b0bb1b3aa361451756c73324d97c75faecf10abb3259d56",
+      "userTag": "admin",
       "deviceHash": "d54ef44d5bfcfac52382876f3b0bf57f06b10ae699b3721557be75d1c864747d",
-      "expires": "2027-11-23",
+      "expires": "",
       "disabled": false
     }
   ]
