@@ -77,6 +77,13 @@
       "deviceHash": "7c41d6313910dd67cf93504e67561d58c5b4f3c515c1bd67e212b72658d15d36",
       "expires": "",
       "disabled": false
+    },
+    {
+      "keyHash": "63a415b6ed236fe033e4e87f95cb86df74155e47fa421de8d1140071a850b1ac",
+      "userTag": "U011",
+      "deviceHash": "bf436abee78d3cbd9274de51c6bed86347b345e90eeb659c3ac18cee2cb958fa",
+      "expires": "",
+      "disabled": false
     }
   ]
 }
