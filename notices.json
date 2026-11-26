@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T10:46:34+08:00",
+  "updatedAt": "2026-11-26T14:09:06+08:00",
   "notices": [
     {
       "id": "20261123172410238",
@@ -10,6 +10,16 @@
       "expiresAt": "",
       "active": true,
       "pinned": true
+    },
+    {
+      "id": "20261126140705619",
+      "title": "ProfitCalc_s1",
+      "body": "1、重量支持运算符\r\n2、右边小箭头（单位换算）\r\n3、头程/汇率  自动保存\r\n4、菜单栏自己挖掘（开机自启没啥用）\r\n5、祝你卡不到9.99",
+      "level": "critical",
+      "publishedAt": "2026-11-26T14:07:05+08:00",
+      "expiresAt": "",
+      "active": true,
+      "pinned": false
     }
   ]
 }
