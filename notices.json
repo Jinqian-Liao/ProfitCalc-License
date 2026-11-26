@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26T17:26:52+08:00",
+  "updatedAt": "2026-11-26T17:56:37+08:00",
   "notices": [
     {
       "id": "20261126172330799",
@@ -8,7 +8,7 @@
       "level": "critical",
       "publishedAt": "2026-11-26T17:23:30+08:00",
       "expiresAt": "2026-11-26",
-      "active": true,
+      "active": false,
       "pinned": true
     },
     {
