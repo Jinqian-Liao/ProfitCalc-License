@@ -1,7 +1,8 @@
 {
-  "version": "1.0",
+  "version": "1.1",
   "url": "https://github.com/Jinqian-Liao/ProfitCalc-License/releases/latest/download/ProfitCalc-win64.zip",
-  "sha256": "",
-  "notes": "",
-  "publishedAt": "2026-11-27T11:20:00+08:00"
+  "sha256": "7c9342695541d7795c80ac778cd9dc5606833b793de11c08cc24348b713e9993",
+  "notes": "- 更新提示改为三个选项：确定下载 / 下次提醒 / 拒绝更新\n- 修复启动时首个弹窗可能崩溃的问题\n- 重量小数位改为 1 位\n- 唤醒后自动聚焦「成本」，输入框全选\n- 藏到后台时清空规格/重量/售价/单位换算，费率回到 15%\n- 移除「开机自启」菜单项",
+  "publishedAt": "2026-11-27T14:05:11+08:00",
+  "sizeMb": 57.1
 }
