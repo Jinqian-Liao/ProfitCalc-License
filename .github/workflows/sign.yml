@@ -4,6 +4,7 @@ on:
     paths:
       - 'licenses.json'
       - 'fba.json'
+      - 'update.json'
   workflow_dispatch:
 
 permissions:
@@ -31,5 +32,6 @@ jobs:
           # 逐个 add：某个 .sig 还不存在时不要影响另一个
           git add licenses.json.sig 2>/dev/null || true
           git add fba.json.sig 2>/dev/null || true
+          git add update.json.sig 2>/dev/null || true
           git diff --cached --quiet || git commit -m "update signature"
           git push

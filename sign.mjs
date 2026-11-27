@@ -15,7 +15,7 @@ const privateKeyPem =
   '\n-----END RSA PRIVATE KEY-----\n';
 
 // 需要签名的清单：licenses.json（授权）和 fba.json（FBA 费用）
-const targets = ['licenses.json', 'fba.json'];
+const targets = ['licenses.json', 'fba.json', 'update.json'];
 
 for (const file of targets) {
   if (!existsSync(file)) {
