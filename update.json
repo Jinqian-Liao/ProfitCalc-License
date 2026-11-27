@@ -1,7 +1,7 @@
 {
-  "version": "1.1.0",
+  "version": "1.2.0",
   "url": "https://github.com/Jinqian-Liao/ProfitCalc-License/releases/latest/download/ProfitCalc-win64.zip",
   "sha256": "",
-  "notes": "",
-  "publishedAt": "2026-11-27T10:00:00+08:00"
+  "notes": "更新检查功能自测",
+  "publishedAt": "2026-11-27T11:00:00+08:00"
 }
